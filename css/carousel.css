@@ -1,0 +1,282 @@
+/* carousel */
+#quote-carousel
+{
+  padding: 0 10px 30px 10px;
+  //margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  //color: #909090;
+  color:#cacaca;
+  font-size: 2em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  //width: 250px;
+  //height: 100px;
+  float: left;
+  padding-right: 1%;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.item p{
+  font-size:1.2em;
+}
+.item p img{
+  width:8%;
+
+}
+/***carousel1***/
+.exp
+{
+  margin-top: 15%;
+  text-align: left;
+  color: white;
+}
+.f2
+{
+  //margin-left: 3%;
+}
+.f2 img
+{
+  float: left;
+    //margin-left: 10%;
+
+}
+/* End carousel */
+/******Exchange rate slider*****/
+/* carousel */
+#quote-carousel1
+{
+  padding: 0 10px 30px 10px;
+  //margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel1 .carousel-control
+{
+  background: none;
+  //color: #909090;
+  color:#cacaca;
+  font-size: 2em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel1 .carousel-control.left
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel1 .carousel-control.right
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel1 .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel1 .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+#quote-carousel1 .carousel-indicators .active
+{
+  background: #333333;
+}
+#quote-carousel1 img
+{
+  //width: 250px;
+  //height: 100px;
+  float: left;
+  padding-right: 1%;
+}
+
+/***carousel1***/
+/**
+.exp1
+{
+  margin-top: 12%;
+  text-align: left;
+  color: white;
+  font-size: 1.2em !important;
+  float: left;
+}
+.exp1 span{
+  float: left;
+}
+.exp1 span img
+{
+  width: 100%;
+}
+.exp2
+{
+  margin-top: 12%;
+  text-align: left;
+  color: white;
+  font-size: 1.2em !important;
+  float: left;
+  //padding-left: 5%;
+  margin-left: 2%;
+}
+.exp2 span{
+  float: left;
+  //width: 100%;
+}
+.exp2 span img
+{
+  width: 100%;
+  padding-right: 2% !important;
+}*/
+/* End carousel */
+/******End exchange rate****/
+
+/**
+  MEDIA QUERIES
+*/
+@media (max-width: 1157px)
+{
+
+}
+@media (max-width: 990px) {
+
+      .item p
+      {
+        font-size: 1em;
+      }
+      .exp1 {
+          margin-top: 2%;
+      }
+      .exp2 {
+          margin-top: 2%;
+      }
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    .item p{
+      font-size:1em;
+    }
+    #quote-carousel .carousel-indicators {
+        //bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+    #quote-carousel
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    .item p{
+      font-size:1em;
+    }
+}
+@media (max-width: 762px) {
+
+
+}
+@media (max-width: 750px) {
+  .item p {
+    font-size: 0.8em;
+}
+
+}
+@media (max-width:550px)
+{
+  .item p {
+    font-size: 0.7em;
+}
+
+}
+@media (max-width:540px)
+{
+
+  #quote-carousel1 .carousel-control {
+
+    margin-top: 76px;
+  }
+}
+@media (max-width:500px) {
+  .item blockquote {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #quote-carousel .carousel-control {
+        margin-top: 52px;
+  }
+
+  #quote-carousel1 .carousel-control {
+    margin-top: 65px;
+  }
+}
+@media (max-width:360px) {
+#quote-carousel .carousel-control {
+    margin-top: 52px;
+}
+
+}

@@ -1,0 +1,1320 @@
+/*------------------------------------------ Fees page css starts ---------------------------------------*/
+.feesheading {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Westfalia-Regular';
+}
+.feesheading1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Westfalia-Regular';
+}
+.feesheading2 {
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+  text-align: center;
+  font-size: 30px;
+}
+.feesbox {
+  background-color: #d6d6d6;
+  margin-top: 2%;
+}
+.feespara {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+  margin-top: 2%;
+}
+.feespara1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Westfalia-Regular';
+  margin-top: 4%;
+}
+.feesimg {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*------------------------------------------ about us page css starts ------------------------------------*/
+.imgborder{
+    position: relative;
+    height:434px;
+}
+.help-block,.fc-center,.fc-button,.fc-day-header,.fc-title{
+	text-transform: uppercase;
+}
+.fc-sat,.fc-sun{
+background-color:#f2dede;
+}
+.fc-mon,.fc-tue,.fc-fri,.fc-thu,.fc-wed{
+background-color:#dff0d8;
+}
+
+.fc-center,.fc-button,.fc-day-header{
+	text-transform: uppercase;
+}
+.calendar1 {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 68px;
+    position: absolute;
+    top: -51px;
+    margin-left: 3% !important;
+    width: 90% !important;
+}
+
+.img {
+    width: 100%;
+}
+.pad {
+  margin-top: 2%;
+}
+.about-headingbox{
+  background-color: #e5ebe6;
+}
+.about-heading{
+  font-size: 9em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Westfalia-Regular';
+  color: #19b237;
+}
+.about-heading1{
+  font-size: 8em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Westfalia-Regular';
+  color: #19b237;
+}
+.about-heading2{
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+}
+.about-heading3{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+  color: #19b237;
+}
+.about-heading4{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+  color: #323131;
+}
+.about-para{
+  font-size: 45px;
+  font-family: Please write me a song;
+}
+.about-para1{
+  font-size: 30px;
+  font-family: Please write me a song;
+}
+.about-para2{
+  font-size: 26px;
+  font-family: Please write me a song;
+}
+.about-para3{
+  font-size: 28px;
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  color:#2b2626;
+}
+.about-para4{
+  font-size: 20px;
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  color:#2b2626;
+}
+.about-span{
+  font-size: 20px;
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  color:#19b237;
+}
+/*-------------------------------------------- about us page css ends ---------------------------------------*/
+.justforkids-greybox{
+  background: #d6d6d6;
+}
+.justforkids-greybox h3 {
+    font-family: 'Westfalia-Regular';
+    text-transform: uppercase;
+    //color: #ffc239;
+    font-size: 4em;
+    text-align: center;
+}
+.prekgames{
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  color: #19b237;
+  font-size: 3em;
+  text-align: center;
+}
+.justforkids-section1-left{
+    background: #fdbd13;
+    text-transform: uppercase;
+    padding: 5%;
+    padding-bottom: 18%;
+    margin-bottom: 4%;
+}
+.justforkids-section1-left h4{
+  font-size: 24px;
+}
+.monster1{
+  float: right;
+      margin-right: -29px;
+}
+.monster2{
+      float: right;
+      margin-right: -29px;
+}
+.justforkids-kidsbanner1{
+    margin: 0 auto;
+    width: 80%;
+}
+.contactkidsmall{
+  margin: 0 auto;
+}
+.contactbox{}
+.contactbox h2{
+  text-transform: uppercase;
+  color:#dd3640;
+  text-align: center;
+  font-size: 6em;
+}
+.contactbox p{
+  color:#dd3640;
+  text-align: center;
+  font-size: 24px;
+  font-family: Please write me a song;
+  padding: 2%;
+}
+.contact-left{
+
+
+}
+#contactform{
+  width: 55%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    position: absolute;
+    left: 22%;
+
+}
+.contact-text-style{
+  text-transform: uppercase;
+    font-family: Please write me a song;
+  background: url('../images/squarebg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:none;
+  outline:none;
+  height: 45px;
+  font-size: 22px;
+  padding-left: 3%;
+  font-weight: 700;
+  color:black;
+}
+.contact-textarea-style{
+  text-transform: uppercase;
+    font-family: Please write me a song;
+  background: url('../images/squarebgtextarea.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:none;
+  outline:none;
+  height: 350px !important;
+  font-size: 22px;
+  padding-left: 3%;
+  font-weight: 700;
+  color:black;
+  border:none;
+}
+.sendbtn{
+  font-family: Please write me a song;
+  font-size: 22px;
+  background: #dd3640;
+  color:white;
+  width:30%;
+}
+.sendbtn:hover{
+  color:#dd3640 !important;
+  border:1px solid #dd3640 !important;
+    background-color: white !important;
+}
+.sidekidbox{
+  position: relative;
+  float: right;
+  //width: 20%;
+}
+.sidekidbox img{
+  height: 600px;
+  position: relative;
+  //float: right;
+}
+.address-box h3{
+  text-transform: uppercase;
+  color:#dd3640;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 5em;
+}
+.address-box
+{
+  width:80%;
+  margin: 0 auto;
+  //position: absolute;
+      margin-top: 7%;
+}
+.address-left{
+  width:35%;
+  float:left;
+}
+.address-left p{
+  font-family: Please write me a song;
+  font-size: 22px;
+  color:#dd3640;
+  line-height: 40px;
+}
+.address-right{
+  width:30%;
+  float:left;
+}
+.address-right img{
+  position: relative;
+    margin-top: -17%;
+}
+/***********Login Page Css********/
+#loginform{
+  width:100%;
+  margin: 0 auto;
+}
+#loginform label{
+  display: inherit;
+  font-family: 'Westfalia-Regular';
+  font-size: 22px;
+  color: #4f4f4f;
+  text-align: right;
+
+  text-transform: uppercase;
+  display: inherit;
+  font-weight: 100;
+}
+#loginform a{
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: none;
+    padding-left: 38%;
+    color: #dd363f;
+    display: inline-block;
+    padding-top: 1%;
+}
+.login-heading{
+  font-family: 'Westfalia-Regular';
+  font-size:6em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+
+}
+
+.login-text-style {
+    text-transform: uppercase;
+    font-family: Please write me a song;
+    background: url(../images/loginsignupImg/redtextbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline: none;
+    height: 45px;
+    font-size: 22px;
+    padding-left: 3%;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 4%;
+}
+.loginbtn {
+    font-family: Please write me a song;
+    font-size: 22px;
+    background: #dd3640;
+    color: white;
+    width: 30%;
+    float: right;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.loginbtn:hover{
+  color: #dd3640 !important;
+  border: 1px solid #dd3640 !important;
+  background-color: white !important;
+  font-weight: 700;
+  //font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.loginbottomkids{
+  margin: 0 auto;
+  margin-top: 5%;
+}
+/********SignUp Css********/
+#signupform{
+  width:100%;
+  margin: 0 auto;
+}
+#signupform label{
+  font-family: 'Westfalia-Regular';
+    font-size: 22px;
+    color: #4f4f4f;
+    text-align: right;
+    text-transform: uppercase;
+    display: inherit;
+    font-weight: 100;
+}
+#signupform a{
+  font-family: 'Westfalia-Regular';
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 38%;
+  color: #dd363f;
+  display: inline-block;
+  padding-top: 1%;
+}
+.signup-text-style {
+    //font-family: 'Westfalia-Regular';
+    text-transform: uppercase;
+    font-family: Please write me a song;
+    background: url(../images/loginsignupImg/greentextbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline: none;
+    height: 45px;
+    font-size: 22px;
+    padding-left: 3%;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 4%;
+}
+.signupbtn {
+    font-family: Please write me a song;
+    font-size: 22px;
+    background: #19ae39;
+    color: white;
+    width: 30%;
+    float: right;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.signupbtn:hover{
+  color: #19ae39 !important;
+  border: 1px solid #19ae39 !important;
+  background-color: white !important;
+  font-weight: 700;
+}
+/*********Enrolment CSS*************/
+.enrolment-para{
+  width:94%;
+  margin: 0 auto;
+}
+.enrolment-para p{
+  font-family: Please write me a song;
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1px;
+  padding-right: 20%;
+  //text-transform: uppercase;
+}
+.enrolment-kids{
+  width: 110%;
+  position: relative;
+  float: right;
+}
+.enrolment-kids img{
+  margin-top: -28%;
+  //margin-left: 34%;
+  margin-left: -18%;
+  //width: 64%;
+  width: 100%;
+}
+.enrolment-heading {
+    font-family: 'Westfalia-Regular';
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.pdfbtn{
+  margin-top: 2%;
+}
+/***********Programming Page Css************/
+.progboxleftstyle{
+  width: 90%;
+  margin: 0 auto;
+}
+.prog-left{
+  width: 35%;
+      position: relative;
+}
+.prog-right{
+width: 65%;
+}
+.prog-right h4{
+    font-family: 'Westfalia-Regular';
+    text-transform: uppercase;
+    font-size: 3em;
+    color:#2688cf;
+    text-align: left;
+}
+.prog-right p{
+  font-family: Please write me a song;
+  font-size: 24px;
+  padding-right: 6%;
+}
+.progboxrightstyle{
+  width: 90%;
+  margin: 0 auto;
+}
+.prog-left1{
+  position: relative;
+      width: 41%;
+      float: right;
+      right: -7.6%;
+}
+.prog-left1 img{
+  margin-bottom: 10%;
+    margin-top: -68%;
+}
+.prog-right1{
+
+}
+.rightimg{
+  //margin-top: -64% !important;
+  margin-top: -55% !important;
+}
+.leftimg{
+  margin-top: 25%;
+    margin-left: -27%;
+}
+.dutiesimg{
+  margin-top: 10%;
+    margin-left: -20%;
+}
+.circletimeimg{
+  margin-top: 25%;
+    margin-left: -11%;
+}
+.prog-right   ul li{
+  font-family: Please write me a song;
+  font-size: 24px;
+
+}
+.prog-right1 h4{
+    font-family: 'Westfalia-Regular';
+    text-transform: uppercase;
+    font-size: 3em;
+    color:#2688cf;
+    text-align: left;
+}
+.prog-right1 p{
+  font-family: Please write me a song;
+  font-size: 24px;
+  padding-right: 6%;
+}
+.prog-right1   ul li{
+  font-family: Please write me a song;
+  font-size: 24px;
+
+}
+@media screen and (max-width:1300px){
+  .feesbox {
+      background-color: #d6d6d6;
+      margin-top: 2%;
+      width: 95%;
+  }
+  .feespara {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Westfalia-Regular';
+    margin-top: 2%;
+    width: 95%;
+  }
+}
+@media screen and (max-width:1250px){
+  .justforkids-greybox{
+    width: 92%;
+  }
+  .justforkids-section1-left{
+    width: 92%;
+  }
+  iframe{
+    width: 90%;
+  }
+  .prog-left1{
+    right: -4.2%;
+  }
+}
+@media screen and (max-width:1200px){
+  .justforkids-greybox{
+    width: 82%;
+  }
+  .justforkids-section1-left{
+    width: 82%;
+  }
+  iframe{
+    width: 82%;
+  }
+  .enrolment-kids{
+        margin-right: 5%;
+  }
+  .prog-left1 {
+    right: -0.2%;
+}
+}
+@media screen and (max-width:1128px)  {
+.justforkids-section1-left{
+width: 100%;
+    padding-bottom: 22%;
+}
+.justforkids-greybox{
+  width: 100%;
+}
+.monster1 {
+    float: right;
+    margin-right: -23px;
+}
+.monster2 {
+    float: right;
+    margin-right: -22px;
+}
+.address-right img{
+      margin-top: -5%;
+}
+.enrolment-kids{
+    margin-right: 0%;
+}
+}
+@media screen and (max-width:1024px)  {
+  .justforkids-section1-left{
+  width: 90%;
+      padding-bottom: 22%;
+  }
+  .justforkids-greybox{
+    width: 90%;
+  }
+  .address-right img {
+    margin-top: 2%;
+}
+.enrolment-kids{
+      margin-right: 5%;
+}
+.prog-left1 {
+    right: -3.35555%;
+}
+.about-heading {
+    font-size: 7em;
+}
+.aboutintrovideo {
+  width: 80%;
+  height: 350px;
+}
+.about-heading1 {
+font-size: 5em;
+}
+.about-para {
+    font-size: 32px;
+    font-family: Please write me a song;
+}
+iframe{
+  width: 90%;
+}
+.video {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    right: 0px !important;
+}
+.enrolment-kids img {
+    margin-top: -32%;
+    margin-left: 2%;
+    width: 90%;
+}
+.calendar1 {
+    position: absolute;
+    top: -51px;
+    margin-left: 2% !important;
+    width: 90% !important;
+}
+.feesbox {
+  width: 89%;
+}
+}
+
+@media screen and (max-width:1000px)  {
+  .justforkids-section1-left{
+  width: 86%;
+      padding-bottom: 22%;
+  }
+  .justforkids-greybox{
+    width: 86%;
+  }
+  .contactbox p{
+    padding-left: 5%;
+    padding-right: 12%;
+  }
+  .address-right img {
+    margin-top: 5%;
+}
+.enrolment-kids{
+      margin-right: 7%;
+}
+.enrolment-kids img {
+  margin-top: 4%;
+  width: 80%;
+  margin-left: 35%;
+}
+.pdfbtn{
+  margin-top: 2%;
+    margin-left: 9%;
+}
+.prog-left1 {
+    right: -1%;
+}
+.feesbox {
+    width: 85%;
+}
+}
+@media screen and (max-width:991px){
+.imgborder {
+    position: relative;
+    height: 435px;
+}
+.calendar1 {
+    position: absolute;
+    top: -51px;
+    margin-left: 3% !important;
+    width: 90% !important;
+}
+.feespara {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Westfalia-Regular';
+    margin-top: 2%;
+    width: 100%;
+}
+.feesbox {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:989px){
+
+  .justforkids-section1-left{
+  width: 100%;
+      padding-bottom: 14%;
+  }
+  .justforkids-greybox{
+    width: 100%;
+  }
+.monster1 {
+    float: right;
+    margin-right: -35px;
+}
+.monster2 {
+    float: right;
+    margin-right: -35px;
+}
+iframe{
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.address-right img {
+    margin-top: 6%;
+}
+.enrolment-kids img {
+  margin-top: 4%;
+  width: 80%;
+  margin-left: 18%;
+}
+}
+@media screen and (max-width:900px){
+  .address-left {
+      width: 45%;
+      float: left;
+  }
+  .address-right {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: 0;
+}
+  .address-right img {
+    margin-top: -90%;
+    position: relative;
+    left: 124%;
+}
+}
+@media screen and (max-width:800px) {
+  .justforkids-section1-left{
+    width: 96%;
+    padding-bottom: 14%;
+  }
+  .justforkids-greybox{
+    width: 96%;
+  }
+  iframe{
+    width: 96%;
+  }
+  #loginform a{
+        padding-left: 22%;
+  }
+  .video {
+    position: absolute;
+    width: 90%;
+    top: 25px;
+    right: 29px !important;
+}
+.about-heading {
+  font-size: 5em;
+}
+.about-heading2 {
+  font-size: 3em;
+}
+.enrolment-kids img {
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 18%;
+}
+.feespara {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Westfalia-Regular';
+    margin-top: 2%;
+    width: 95%;
+}
+.feesheading1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Westfalia-Regular';
+    margin-right: 2%;
+}
+.feesbox {
+    width: 95%;
+}
+}
+@media screen and (max-width:768px) {
+  .justforkids-section1-left{
+    width: 92%;
+    padding-bottom: 14%;
+  }
+  .justforkids-greybox{
+    width: 92%;
+  }
+  iframe{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about-heading {
+    font-size: 5em;
+  }
+  .about-heading2 {
+    font-size: 3em;
+  }
+  .about-para {
+    font-size: 36px;
+  }
+  .video {
+    position: absolute;
+    width: 80%;
+    top: 20px;
+    right: 51px !important;
+}
+.enrolment-kids img {
+    margin-top: 4%;
+    margin-left: 16%;
+}
+.pdfbtn{
+  margin-top: 2%;
+    margin-left: 10%;
+}
+.feespara {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Westfalia-Regular';
+    margin-top: 2%;
+    width: 90%;
+}
+.feesheading1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Westfalia-Regular';
+    margin-right: 8%;
+}
+.feesbox {
+    width: 92%;
+}
+}
+@media screen and (max-width:767px) {
+  .feespara {
+      font-size: 25px;
+      text-transform: uppercase;
+      font-family: 'Westfalia-Regular';
+      margin-top: 2%;
+      width: 100%;
+  }
+  .feesheading1 {
+      font-size: 54px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Westfalia-Regular';
+      margin-right: 0%;
+  }
+  .feesbox {
+      width: 100%;
+      margin-top: 0%;
+  }
+}
+@media screen and (max-width:700px){
+  .justforkids-section1-left {
+    padding-bottom: 16.5%;
+      width: 100%;
+    }
+  .justforkids-greybox{
+    width: 100%;
+  }
+  .monster1 {
+      float: right;
+      margin-right: -30px;
+  }
+  .monster2 {
+      float: right;
+      margin-right: -30px;
+  }
+  iframe{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+  .address-left p{
+        font-size: 19px;
+  }
+  .address-box{
+    margin-top: 13%;
+  }
+  .address-right img {
+      margin-top: -84%;
+    }
+    .sendbtn{
+      width: 40%;
+    }
+    #loginform label{
+      text-align: center;
+    }
+    #signupform label{
+        text-align: center;
+    }
+    .signupbtn{
+      width: 40%;
+        margin-right: 29%;
+    }
+    .enrolment-kids {
+    margin-right: 2%;
+}
+.enrolment-kids img {
+    margin-top: 5%;
+}
+}
+@media screen and (max-width:650px){
+  .justforkids-section1-left {
+    padding-bottom: 18%;
+      width: 100%;
+}
+.justforkids-greybox{
+  width: 100%;
+}
+.monster1 {
+    float: right;
+    margin-right: -30px;
+}
+.monster2 {
+    float: right;
+    margin-right: -30px;
+}
+.address-left {
+    width: 50%;
+    float: left;
+}
+.address-right img {
+    margin-top: -79%;
+    left: 108%;
+}
+.enrolment-kids {
+    margin-right: -2%;
+}
+}
+@media screen and (max-width:600px){
+  .justforkids-section1-left {
+    padding-bottom: 19.5%;
+}
+.monster2 {
+    float: right;
+    margin-right: -25px;
+}
+.monster1 {
+    float: right;
+    margin-right: -25px;
+}
+.address-left {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.contactbox h2{
+  font-size: 4em;
+
+}
+.address-box h3{
+  font-size: 4em;
+  text-align: center;
+}
+.address-right img {
+    margin-top: -49%;
+    left: 108%;
+}
+#contactform{
+  left: 12%;
+}
+.video {
+  position: absolute;
+  width: 80%;
+  top: 15px;
+  right: 38px !important;
+}
+.about-heading1{
+  font-size: 3em;
+}
+.about-heading2{
+  font-size: 2em;
+}
+.enrolment-kids img {
+  margin-top: 4%;
+    margin-left: 12%;
+}
+.pdfbtn{
+  margin-top: 2%;
+    margin-left: 0%;
+}
+}
+@media screen and (max-width:500px) {
+  .justforkids-section1-left {
+      padding-bottom: 23.5%;
+  }
+.monster2 {
+    float: right;
+    margin-right: -22px;
+}
+.monster1 {
+    float: right;
+    margin-right: -22px;
+}
+.sendbtn {
+    width: 50%;
+}
+
+.enrolment-heading{
+  font-size: 5em;
+}
+}
+@media screen and (max-width:480px)  {
+  .justforkids-section1-left {
+      padding-bottom: 24.5%;
+  }
+  .monster2 {
+      float: right;
+      margin-right: -20px;
+  }
+  .monster1 {
+      float: right;
+      margin-right: -20px;
+  }
+  #contactform {
+      width: 76%;
+  }
+  .sidekidbox img{
+      opacity:0.2;
+  }
+  .address-left {
+    width: 100%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  .address-right img {
+    margin-top: -111%;
+    left: 260%;
+}
+.address-box h3 {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 8%;
+}
+.contactbox h2 {
+    font-size: 3.5em;
+}
+}
+@media screen and (max-width:450px)  {
+  .justforkids-section1-left {
+      padding-bottom: 26.5%;
+  }
+    .monster2 {
+        float: right;
+        margin-right: -20px;
+    }
+    .monster1 {
+        float: right;
+        margin-right: -20px;
+    }
+}
+@media screen and (max-width:414px)  {
+  .justforkids-section1-left {
+      padding-bottom: 28.5%;
+  }
+  .monster1 {
+    float: right;
+    margin-right: -19px;
+}
+.monster2 {
+    float: right;
+    margin-right: -19px;
+}
+.sidekidbox img {
+
+    opacity: 0.2;
+}
+#myBtn{
+  padding: 20px;
+}
+.address-right img {
+    margin-top: 23%;
+    left: 108%;
+    width: 100%;
+}
+#loginform a {
+    padding-left: 10%;
+}
+.signupbtn {
+    width: 55%;
+    margin-right: 20%;
+}
+.login-heading{
+  font-size: 4em;
+}
+.enrolment-kids {
+    width: 70%;
+    position: relative;
+    float: right;
+}
+.enrolment-kids {
+    width: 70%;
+    position: relative;
+    float: right;
+}
+.enrolment-heading{
+  font-size: 4em;
+}
+.video {
+  position: absolute;
+  width: 80%;
+  top: 12px;
+  right: 31px !important;
+}
+.about-heading {
+font-size: 3em;
+}
+.about-heading1 {
+font-size: 2em;
+}
+}
+@media screen and (max-width:412px)  {
+  .about-heading {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Westfalia-Regular';
+    color: #19b237;
+}
+.about-heading1{
+  font-size: 2em;
+}
+.about-heading2{
+  font-size: 2em;
+}
+.about-para {
+    font-size: 30px;
+    font-family: Please write me a song;
+    text-align: center;
+}
+.aboutintrovideo {
+    width: 80%;
+    height: 260px;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 11px;
+    right: 32px !important;
+}
+}
+@media screen and (max-width:400px)  {
+  .justforkids-section1-left {
+      padding-bottom: 30.5%;
+  }
+
+}
+@media screen and (max-width:375px) {
+.about-heading1{
+  font-size: 2em;
+}
+.about-heading2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Westfalia-Regular';
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 7px;
+    right: 27px !important;
+}
+}
+@media screen and (max-width:360px) {
+  .justforkids-section1-left {
+      padding-bottom: 33.5%;
+  }
+  .monster1 {
+    float: right;
+    margin-right: -16px;
+  }
+  .monster2 {
+    float: right;
+    margin-right: -16px;
+  }
+  .justforkids-greybox h3{
+    font-size: 2em;
+
+  }
+  .address-right {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0;
+}
+.address-right img {
+    margin-top: -111%;
+    left: 130%;
+    width: 100%;
+    opacity: 0.2;
+}
+.address-box h3 {
+    font-size: 2.8em;
+  }
+  #loginform a {
+    padding-left: 2%;
+}
+.login-heading{
+  font-size: 4em;
+}
+.enrolment-kids {
+    width: 90%;
+    position: relative;
+    float: right;
+}
+.about-heading{
+  font-size: 2em;
+}
+.about-para {
+    font-size: 30px;
+    font-family: Please write me a song;
+    text-align: center;
+}
+.aboutintrovideo {
+    width: 80%;
+    height: 260px;
+}
+.about-heading1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Westfalia-Regular';
+    color: #19b237;
+}
+.about-heading2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Westfalia-Regular';
+}
+.about-para4 {
+    font-size: 18px;
+    font-family: 'Westfalia-Regular';
+    text-transform: uppercase;
+    color: #2b2626;
+}
+.enrolment-kids img {
+    margin-top: 7%;
+}
+.pdfbtn{
+  margin-top: 2%;
+    margin-left: 0%;
+}
+}
+
+@media screen and (max-width:320px) {
+  .justforkids-section1-left {
+      padding-bottom: 38.5%;
+  }
+  .monster1 {
+    float: right;
+    margin-right: -13px;
+  }
+  .monster2 {
+    float: right;
+    margin-right: -13px;
+  }
+  .justforkids-greybox h3{
+    font-size: 2em;
+
+  }
+  #loginform a {
+    padding-left: 15%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.loginbtn{
+  width: 100%;
+}
+.enrolment-heading{
+  font-size: 3em;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 11px;
+    right: 24px !important;
+}
+}

@@ -1,0 +1,3714 @@
+*{
+	font-family:'Westfalia-Regular','Please write me a song';
+}
+@font-face {
+  font-family:'Westfalia-Regular';
+  src: url('../fonts/Westfalia-Regular.otf');
+
+}
+@font-face {
+  font-family:'Please write me a song';
+  src:url('../fonts/please_write_me_a_song/Please write me a song.ttf');
+}
+body {
+    margin:0;
+    padding:0;
+    font-family:'Westfalia-Regular','Please write me a song','Open Sans';
+    font-size:16px;
+		overflow-x: hidden;
+		background: #fff;
+
+}
+ul, li{
+	margin:0;
+	padding:0;
+}
+
+p, li, h1, h2, h3, h4{
+	color:#4a4a4a;
+}
+.clear
+{
+  clear: both;
+}
+html{
+	    overflow-x: hidden;
+}
+
+.wrapper{
+	width:96%;
+	max-width:1200px;
+	margin:0 auto;
+	//padding: 0 2%;
+}
+.main-wrapper{
+	width:90%;
+	margin: 0 auto;
+	box-shadow: 0px 10px 50px 0px rgba(47, 47, 47, 0.8)
+}
+.mainheading {
+	font-family: 'Westfalia-Regular';
+  color: #fdbd13;
+  font-size: 4.9em;
+  text-align: center;
+	text-transform: uppercase;
+  margin-bottom: 5%;
+}
+.mainheading1 {
+	font-family: 'Westfalia-Regular';
+  color: #fdbd13;
+  font-size: 80px;
+  text-align: center;
+	text-transform: uppercase;
+  margin-bottom: 5%;
+}
+.mainheading2 {
+	font-family: 'Westfalia-Regular';
+  color: #fdbd13;
+  font-size: 80px;
+  text-align: center;
+	text-transform: uppercase;
+  margin-bottom: 2%;
+	margin-top: 5%;
+}
+.mainheading3 {
+	font-family: 'Westfalia-Regular';
+  color: #fdbd13;
+  font-size: 80px;
+  text-align: center;
+	text-transform: uppercase;
+  margin-bottom: 2%;
+	margin-top: 5%;
+}
+.mainheading4 {
+	font-family: 'Westfalia-Regular';
+  color: #fdbd13;
+  font-size: 90px;
+  text-align: center;
+	text-transform: uppercase;
+  margin-bottom: 2%;
+	margin-top: 2%;
+}
+.section-heading{
+	font-family: Please write me a song;
+	color: #fdbd13;
+	font-size: 45px;
+}
+.section-p{
+	font-family: Please write me a song;
+	text-align: center;
+	color: #2a2828;
+	font-size: 45px;
+}
+.section-p1{
+	font-family: Please write me a song;
+	font-size: 28px;
+	margin-bottom: 5%;
+}
+.section1banner {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.section1banner-content{
+  position: absolute;
+  top: 5px;
+  width: 84%;
+  left: 6%;
+}
+.section1banner-content-li{
+	font-family: Please write me a song;
+  font-size: 26px;
+	list-style: none;
+}
+.section2banner {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.section2banner-content{
+  position: absolute;
+  top: 18px;
+  width: 84%;
+  right: 6%;
+}
+.section2banner-content-li{
+	font-family: Please write me a song;
+  font-size: 28px;
+	text-align: right;
+	list-style: none;
+}
+.containerbg{
+	background-color: #efefef;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.containerbg1{
+	background-color: #eeebeb;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.section3banner {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.section3banner-content{
+  position: absolute;
+	top: 16px;
+	width: 94%;
+	left: 36px;
+}
+.section3banner-content-p{
+	font-family: Please write me a song;
+  font-size: 25px;
+}
+.section4banner {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.section4banner-content{
+  position: absolute;
+	top: 16px;
+	width: 94%;
+	left: 36px;
+}
+.section4banner-content-p{
+	font-family: Please write me a song;
+  font-size: 25px;
+}
+.section4banner-content-li{
+	font-family: Please write me a song;
+  font-size: 25px;
+}
+.section4banner-content-li1{
+	font-family: Please write me a song;
+  font-size: 25px;
+}
+header{
+	//margin:2px 0;
+	//position: fixed;
+  z-index: 2;
+  overflow: hidden;
+  width: 90%;
+  position: absolute;
+}
+
+header h1{
+	margin:0;
+	text-indent:-1000000px;
+  //background:url(../images/logonew.png) no-repeat;
+	width:215px;
+	height:58px;
+	float:left;
+	text-align: right;
+  //font-size: 22px;
+  padding-top: 3%;
+	padding-left: 19%;
+	color: #1D2551;
+  margin-top: 5px;
+	font-size: x-large;
+  font-family: inherit;
+  font-weight: 700;
+}
+header h1 span{
+color:#70AACE;
+}
+header nav{
+	float:right;
+	//margin-top:22px;
+  margin-right: 0%;
+  margin-bottom: 1%;
+}
+
+header:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+
+header nav h2{
+	line-height:0;
+	margin:0;
+	text-indent:-100000px;
+}
+
+header nav li{
+	list-style-type:none;
+	float:left;
+	margin-top:15px;
+	margin-left:30px;
+	color: #646363;
+
+  display: block;
+  text-transform: uppercase;
+}
+
+header nav li a{
+	text-decoration:none;
+  color: #fff;
+  font-size:22px;
+
+  font-weight: 100;
+}
+header nav li a.active{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	border-bottom: 2px solid white;
+	text-shadow: 2px 2px #67676773;
+}
+a:hover
+{
+  text-decoration: none;
+  color: white;
+	font-weight: 500;
+  //border-bottom: 2px solid white;
+	text-shadow: 2px 2px #67676773;
+}
+.clear
+{
+  clear: both;
+}
+.main-banner {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 4%;
+  //min-height: 620px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  //background: linear-gradient(180deg,#0cdfb5,#355f8e);
+}
+.main-banner1 {
+  width: 100%;
+  overflow: hidden;
+  //min-height: 620px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  //background: linear-gradient(180deg,#0cdfb5,#355f8e);
+}
+.main-banner  img{
+  width: 98%;
+  margin-left: 2%
+}
+.main-banner1  img{
+  width: 98%;
+  margin-left: 2%
+}
+.blackboximg{
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+.border {
+	position: relative;
+	width: 100%;
+}
+.video {
+	position: absolute;
+  width: 80%;
+  top: 25px;
+  right: 116px;
+}
+.banner1{
+    //margin-top:1%;
+  position: relative;
+}
+
+
+.banner1-content{
+    position: absolute;
+    top:15%;
+    left:55%;
+    width: 57% !important;
+}
+.desktopbanner{
+	display: block;
+	width: 100%;
+}
+.mobilebanner{
+	display:none;
+	width: 100%;
+}
+.banner1-content h3{
+  font-family: 'Westfalia-Regular' !important;
+  text-transform: uppercase;
+  color:#ffc239;
+  font-size:8em;
+  padding-left: 0%;
+}
+.loveheading{
+	font-family: 'Westfalia-Regular' !important;
+  text-transform: uppercase;
+  color:#ffc239;
+  font-size:8em;
+  padding-left: 12% !important;
+}
+.banner1-content p
+{
+  font-family: Please write me a song;
+  width: 58%;
+  color:#222222;
+  font-size: 24px;
+  text-align: center;
+}
+
+.banner2{
+    //margin-top:1%;
+    position: relative;
+
+}
+
+.banner2-content{
+    position: absolute;
+    top:15%;
+    width: 61%;
+    left: 8%;
+}
+
+.banner2-content h3{
+  font-family: 'Westfalia-Regular' !important;
+  text-transform: uppercase;
+  color:#ffc239;
+  font-size:8em;
+  padding-left: 5%;
+}
+.banner2-content p{
+  font-family: Please write me a song;
+  width: 55%;
+  color:#222222;
+  font-size: 24px;
+  text-align: center;
+}
+.greybox
+{
+  background-color: #d1cdcd;
+  margin-top: 2%;
+}
+.greybox h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:5em;
+}
+.pleft{
+  font-family: Please write me a song;
+  color:#222222;
+  font-size: 40px;
+  padding-top: 32%;
+  text-align: center;
+  padding-left: 52%;
+}
+.pright{
+  font-family: Please write me a song;
+  color:#222222;
+  font-size: 40px;
+  padding-top: 32%;
+  text-align: center;
+  padding-right: 52%;
+}
+.box1{
+  background-color: #f3f3f3;
+  border:5px solid #ffffff;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  border: 15px solid #ffffff;
+  box-shadow: 0px 10px 50px 0px rgba(47, 47, 47, 0.16);
+}
+.box1 h4{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:30px;
+}
+.box1 p{
+  font-family: Please write me a song;
+  color:#222222;
+  font-size: 24px;
+  text-align: center;
+  min-height: 410px;
+  padding: 6%;
+}
+.box1 img{
+  margin: 0 auto;
+}
+.trustedbox{
+  background-color: #f3f3f3;
+  margin-top: 2%;
+}
+.trustedbox h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:5em;
+}
+.testcont{
+  margin-top: 4%;
+}
+.trustedbox p{
+  font-family: Please write me a song;
+  color:#222222;
+  font-size: 24px;
+  text-align: center;
+  font-size:24px !important;
+  /* margin-left: 5%; */
+  padding-left: 4%;
+  background: white;
+  margin-left: 12%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 10px 50px 0px rgba(47, 47, 47, 0.16);
+}
+.item blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-right: 10px;
+}
+.bubble{
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 39px solid transparent;
+    border-top: 40px solid #fffdfd;
+    margin: 0 0 0 107px;
+    margin-top: -12px;
+}
+#quote-carousel .carousel-control.right {
+    right: -12px !important;
+      margin-top: 7% !important;
+}
+#quote-carousel .carousel-control.left {
+
+      margin-top: 7% !important;
+}
+.blackfooter{
+  background: #2b2f31;
+  color:white;
+  padding-top:4%;
+  //margin-top: 2%
+}
+.blackfooter h4{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:30px;
+  color:white;
+}
+.blackfooter p{
+  font-family: Please write me a song;
+  text-align: center;
+  font-size:20px;
+  color:white;
+}
+.blacktextleft{
+  text-align: left !important;
+}
+.mail {
+  text-decoration: none;
+  font-family: Please write me a song;
+  color: white;
+}
+.mail:focus{
+  color: white;
+  text-decoration: none;
+}
+.mail1 {
+  text-decoration: none;
+  font-family: Please write me a song;
+  color: #dd3640;
+}
+.mail1:hover{
+  color: #dd3640;
+  text-decoration: none;
+	text-shadow: none;
+}
+.footer-inner{
+  width:92%;
+  margin: 0 auto;
+}
+.subscribetextbox{
+  border-radius: 50px;
+  height: 35px;
+  width: 66%;
+  float: left;
+  border:none;
+  outline:none;
+  color:black !important;
+  padding-left:4%;
+}
+.subscribebtn{
+  padding: 7px 25px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 50px;;
+  min-height: 32px;
+  background: #ffd046;
+  border: none;
+  text-transform: uppercase;
+  color: #323131;
+  font-weight: 100;
+  transition: all .2s ease-in-out;
+
+}
+a .subscribebtn:hover{
+  border:none !important;
+}
+.acc_logo{
+  margin-left: 8%;
+}
+.about{
+  padding-left: 23%;
+  padding-right: 23%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  //right: 30px;
+	right: 8px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  //background-color: #ffc239;
+	background: #f8b238 url(../images/arrowup1.png) no-repeat 50% 50%;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.boy2{
+
+}
+.introvideo{
+	//width:80%;
+	//height: 480px;
+	margin: 0 auto !important;
+	display:inherit !important;
+	margin-bottom: 3% !important;
+}
+.aboutintrovideo{
+	width:80%;
+	height: 480px;
+	margin: 0 auto !important;
+	display:inherit !important;
+	margin-bottom: 3% !important;
+	padding-top: 3%;
+}
+.programmingvideo{
+	width:80%;
+	height: 480px;
+	margin: 0 auto !important;
+	display:inherit !important;
+	margin-bottom: 3% !important;
+}
+@media screen and (max-width:1330px){
+.section1banner {
+	    margin: 0 auto;
+	    position: relative;
+	    width: 94%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 34px;
+    width: 84%;
+    left: 6%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 95%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 18px;
+    width: 84%;
+    right: 10%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 26px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    left: -23px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 16px;
+    width: 94%;
+		left: 8px;
+}
+.section4banner {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    left: -23px;
+}
+.containerbg1 {
+    background-color: #eeebeb;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 95%;
+}
+}
+@media screen and (max-width:1260px) and (min-width:1220px){
+	.section1banner {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 34px;
+    width: 84%;
+    left: 8%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 90%;
+    margin-left: -5%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 18px;
+    width: 84%;
+    right: 18%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 26px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    margin: 0 auto;
+    position: relative;
+    width: 96%;
+    left: -41px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 97%;
+}
+.section4banner {
+    margin: 0 auto;
+    position: relative;
+    width: 96%;
+    left: -41px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 95%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 95%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 96%;
+}
+}
+@media screen and (max-width:1230px){
+	header nav li {
+    margin-top: 15px;
+    margin-left: 24px;
+    color: #646363;
+    display: block;
+}
+}
+@media screen and (max-width:1200px){
+	.subscribetextbox{
+		width: 64%;
+	}
+  .video {
+    position: absolute;
+    width: 80%;
+    top: 25px;
+    right: 150px;
+}
+	.section1banner {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 0px;
+    width: 84%;
+    left: 6%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 22px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 18px;
+    width: 84%;
+    right: 10%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 22px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    left: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 16px;
+    width: 94%;
+    left: 32px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 21px;
+}
+.section4banner {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    left: 0px;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 23px;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 20px;
+}
+}
+@media screen and (max-width:1180px){
+	header nav li {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #646363;
+    display: block;
+}
+}
+@media screen and (max-width:1140px){
+	header nav li {
+    margin-top: 15px;
+    margin-left: 16px;
+    color: #646363;
+    display: block;
+}
+}
+@media screen and (max-width:1128px) and (min-width: 1080px) {
+	header {
+    z-index: 2;
+    overflow: hidden;
+    width: 91%;
+    position: absolute;
+}
+header nav {
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+.wrapper{
+	width:100%;
+}
+  .banner1-content {
+      position: absolute;
+      top: 9%;
+      left: 55%;
+      width: 65% !important;
+  }
+  .banner2-content {
+    position: absolute;
+    top: 0%;
+    width: 65%;
+    left: 6%;
+}
+.subscribetextbox{
+  width: 61%;
+  margin-right: 1%;
+}
+.box1 p{
+  min-height: 520px;
+}
+.banner1-content h3
+{
+  padding-left: 2%;
+}
+.pleft{
+  padding-left: 40%;
+}
+
+.pright{
+      padding-top: 22%;
+      padding-right: 40%;
+}
+}
+@media screen and (max-width:1080px) {
+header nav {
+    float: right;
+    margin-right: 0%;
+    margin-bottom: 1%;
+}
+header nav li {
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #646363;
+	display: block;
+}
+header nav li a {
+    font-size: 20px;
+}
+@media screen and (max-width:1024px)  {
+	header {
+    z-index: 2;
+    overflow: hidden;
+    width: 90%;
+    float: right;
+    position: absolute;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header nav {
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+header nav li a{
+	font-size: 20px;
+}
+.banner1-content {
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    width: 68% !important;
+}
+	.banner1-content h3{
+		padding-left: 3%;
+		font-size: 6em;
+
+	}
+	.banner2-content{
+		width: 68% !important;
+		top:0%;
+		left:5%;
+	}
+	.box1 p{
+		min-height: 520px;
+	}
+	.pright{
+		padding-top: 28%;
+
+    padding-right: 49%;
+	}
+	.pleft{
+		padding-top: 28%;
+
+		padding-left: 41%;
+	}
+	.subscribetextbox{
+		width:60%;
+	}
+	.desktopbanner {
+    display: block;
+    width: 95%;
+}
+.boy2{
+	width: 85%;
+}
+.box1{
+	width: 84%;
+
+}
+.box1 p{
+	min-height: 580px;
+}
+.loveheading{
+	padding-left: 16% !important;
+}
+.banner2-content{
+
+}
+.banner2-content h3{
+	    font-size: 6em;
+}
+.border {
+position: relative;
+width: 100%;
+margin-left: -2%;
+}
+.video {
+position: absolute;
+width: 80%;
+top: 25px;
+right: 152px;
+}
+.section1banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 90%;
+    margin-left: 4%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 90%;
+    margin-left: -4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    right: 18%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 20px;
+    text-align: right;
+    list-style: none;
+}
+.mainheading1 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    width: 90%;
+}
+.mainheading2{
+	font-size: 70px;
+}
+.mainheading3{
+	font-size: 70px;
+}
+.mainheading{
+	font-size: 80px;
+}
+.section-p {
+    font-size: 40px;
+    margin-left: -3%;
+}
+.containerbg1 {
+    width: 95%;
+}
+.section3banner {
+    position: relative;
+    width: 92%;
+    height: 300px;
+		margin: 0;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 28px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 92%;
+    height: 440px;
+		margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 90%;
+}
+
+}
+
+
+@media screen and (max-width:1000px) {
+
+  header{
+  	//margin:10px 0px;
+  	//padding:5px 0;
+		position: fixed;
+    z-index: 999999;
+		width: 100%;
+  	}
+		.numbertxt {
+    border: none;
+    width: 54%;
+     }
+  header h1{
+  		/* float:left; */
+  		overflow:hidden;
+  		margin-left:10px;
+  		/* border: 1px solid; */
+  		/* width: 25%; */
+  		/* margin-right: 70px; */
+  	}
+  header .wrapper{
+  		width:90%;
+  		margin:0;
+  		padding:0;
+			z-index: 999999;
+  	}
+  header nav{
+  		float:right;
+  		background:#fff;
+  		//margin-top:2px;
+  		overflow:hidden;
+  		float: none;
+  		padding-left:15px;
+      width: 100%;
+			 transition: all .2s ease-in-out;
+  	}
+  	header nav li{
+  		width:100%;
+  		margin:0;
+  		border-bottom: 1px solid #eaecef;
+  		padding: 1rem 0;
+  	}
+  header nav li a{
+  		display:block;
+  		text-align:left;
+  		margin-left:40px;
+      color:#6f6f6f;
+  		//border:1px solid #4f4f4f;
+  	}
+  #burger-nav {
+  		/* width:100%; */
+  		height:40px;
+  		background:url(../images/icon-menu1.png) no-repeat 98% center;
+			//background:url(../images/ic_hamburger_dark.svg) no-repeat 98% center;
+  		cursor:pointer;
+  		margin-top: 10px;
+  	}
+  header nav ul{
+  		height:0;
+  		overflow:hidden;
+  		float: left;
+  	}
+  header nav ul.open{
+  		height:auto;
+  		//position:absolute;
+  		//z-index:9999;
+			position: fixed;
+      z-index: 999999;
+  		width:88.5%;
+			float: right;
+  		background:#fff;
+  		//left:0;
+			left:65px;
+  		overflow: hidden;
+  		border-bottom:1px solid #eaecef;
+  		border-top:1px solid #eaecef;
+  	}
+		header nav li a.active{
+			text-decoration: none;
+    color: #fdbd11;
+    /* font-weight: 500; */
+    border-bottom: 2px solid white;
+		}
+    .banner1-content {
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    width: 61% !important;
+}
+.banner1-content h3{
+  padding-left: 2%;
+}
+.banner2-content {
+    position: absolute;
+    top:0%;
+    width: 61%;
+    left: 4%;
+}
+.pleft
+{
+      padding-top: 25%;
+      padding-left: 40%;
+}
+.box1{
+	margin-top: 5%;
+	margin-bottom: 0%;
+}
+.box1 p
+{
+  //min-height:auto;
+}
+.pright{
+    padding-top: 24%;
+    text-align: center;
+    padding-right: 45%;
+}
+.subscribetextbox {
+    width: 100%;
+    margin-left: 2%;
+		margin-bottom: 2%;
+}
+.acc_logo{
+  margin: 0 auto;
+}
+.subscribebtn{
+      padding: 7px 60px;
+
+    margin-right: 4%;
+}
+.desktopbanner{
+	width: 94%;
+}
+.rightimg {
+    margin-top: -63% !important;
+}
+.introvideo{
+	width: 100%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+	height: 390px;
+}
+.programmingvideo{
+	width: 93%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+}
+.border {
+    position: relative;
+    width: 80%;
+    margin-left: 6%;
+}
+.video {
+    position: absolute;
+    width: 95%;
+    right: 19px;
+}
+.mainheading {
+    font-size: 80px;
+    width: 90%;
+}
+.section-p {
+    font-size: 40px;
+    margin-left: 0%;
+    width: 94%;
+}
+}
+@media screen and (max-width:981px)  {
+
+.pleft{
+  padding-left: 0%;
+  padding-top: 25%;
+  text-align: left;
+}
+.pright{
+  padding-right: 0%;
+  padding-top: 8%;
+  text-align: left;
+}
+
+.box1{
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+.box1 p {
+    min-height: 250px;
+}
+.blacktextleft{
+  text-align: center !important;
+}
+.subscribetextbox {
+    width: 78%;
+    margin-left: 9%;
+}
+.acc_logo{
+  margin: 0 auto;
+}
+.subscribebtn{
+      padding: 7px 60px;
+
+    margin-right: 4%;
+}
+.desktopbanner {
+    width: 100%;
+}
+.box1{
+	width: 100%;
+
+}
+.box1 p{
+	min-height: auto;
+}
+.introvideo{
+	width: 100%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+	height: 300px;
+}
+.programmingvideo{
+	width: 100%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 18px;
+    right: 27px !important;
+}
+.mainheading1 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-left: 6%;
+		width: 90%;
+}
+.mainheading2{
+	font-size: 70px;
+}
+.mainheading3{
+	font-size: 70px;
+}
+.mainheading{
+	font-size: 80px;
+	margin: 0 auto;
+}
+.section-p {
+    font-size: 40px;
+    margin-left: -3%;
+}
+.section1banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 90%;
+    margin-left: 4%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 90%;
+    margin-left: -4%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+}
+}
+@media screen and (max-width:950px) {
+.banner1-content h3{
+	font-size: 3em;
+}
+.banner2-content h3{
+	font-size: 3em;
+}
+.banner1-content p {
+		width: 65%;
+		font-size: 20px;
+    text-align: center;
+}
+.banner2-content{
+	left:5%;
+}
+.banner2-content p {
+		width: 65%;
+		font-size: 20px;
+    text-align: center;
+}
+.border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 93%;
+    top: 20px;
+    right: 27px !important;
+}
+.introvideo {
+    width: 100%;
+    display: inline-block !important;
+    margin: 0 auto;
+    margin-bottom: 5% !important;
+    height: 382px;
+}
+.section4banner-content {
+    position: absolute;
+    top: 142px;
+    width: 94%;
+    left: 36px;
+}
+}
+@media screen and (max-width:900px) {
+		header nav ul.open{
+			left: 58px;
+		}
+}
+@media screen and (max-width:800px)  {
+	header nav ul.open{
+		left: 52px;
+	}
+
+	.banner1{
+		position: inherit;
+	}
+	.banner2{
+		position: inherit;
+	}
+	.desktopbanner{
+			display:none;
+
+	}
+	.mobilebanner{
+			display: block;
+			width: 92%;
+			//margin: 0 auto;
+}
+.banner2-content {
+  position: inherit;
+	top: 0%;
+	left: 21%;
+	width: 98% !important;
+}
+.banner2-content h3{
+	text-align: center;
+	padding-left: 0;
+}
+.banner2-content p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+		margin-bottom: 8%;
+
+}
+	.banner1-content {
+	    position: inherit;
+	    top: 0%;
+	    left: 21%;
+			width: 98% !important;
+	}
+.banner1-content h3{
+	text-align: center;
+	padding-left: 0;
+}
+.banner1-content p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+		margin-bottom: 8%;
+}
+.blacktextleft{
+	text-align: center !important;
+}
+.introvideo{
+	width: 100%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+	height: 280px;
+}
+.programmingvideo{
+	width: 96%;
+	display: inline-block !important;
+	margin: 0 auto;
+	margin-bottom: 5% !important;
+}
+.mainheading {
+    font-size: 60px;
+    width: 90%;
+    margin-left: 2%;
+}
+.mainheading1 {
+    font-size: 60px;
+    width: 90%;
+		margin-left: 2%;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.border {
+    position: relative;
+    width: 80%;
+    margin-left: 9%;
+}
+.video {
+    position: absolute;
+    width: 90%;
+    top: 25px;
+    right: 31px;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    list-style: none;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 91%;
+    height: 300px;
+    margin: 0;
+}
+.section3banner-content {
+    position: absolute;
+    top: 18px;
+    width: 94%;
+    left: 32px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 23px;
+    width: 90%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 90%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 90%;
+}
+.section4banner-content {
+    position: absolute;
+    top: 130px;
+    width: 94%;
+    left: 22px;
+}
+.section4banner {
+    position: relative;
+    width: 90%;
+    height: 440px;
+    margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+		margin-left: -10%;
+}
+.section-p {
+    font-size: 40px;
+    margin-left: 0%;
+}
+}
+@media screen and (max-width:768px)  {
+	.loveheading{
+		padding-left: 0 !important;
+		text-align: center;
+	}
+	.pright{
+		padding-top: 0;
+		padding-right: 0;
+		font-size:30px;
+		text-align: -webkit-match-parent;
+	}
+		.pleft{
+			padding-top: 0;
+			padding-left: 0;
+			font-size:30px;
+			text-align: center;
+		}
+		.greybox img{
+			width: 55%;
+			margin: 0 auto;
+			    margin-right: 35%;
+		}
+		.box1{
+			margin-top: 5%;
+			margin-bottom: 0%;
+		}
+		.box1 p{
+			min-height: auto;
+		}
+		.blacktextleft {
+		    text-align: center !important;
+		}
+		.subscribetextbox {
+		    width: 78%;
+		    margin-left: 9%;
+		}
+		.subscribebtn{
+			margin-left: -8%;
+		}
+		.acc_logo{
+			margin: 0 auto;
+		}
+		.box1 {
+    width: 92%;
+		}
+		.blackboximg {
+			width: 80%;
+			margin: 0 auto !important;
+			margin-bottom: 4% !important;
+		}
+		.trustedbox p{
+			margin-left: 0%;
+		}
+		.carousel-inner{
+			width: 92% !important;
+		}
+		#quote-carousel .carousel-control.right{
+			margin-right:63px !important;
+		}
+		.introvideo{
+			width: 92%;
+		}
+		.programmingvideo{
+			width: 92%;
+		}
+		.border {
+    position: relative;
+    width: 100%;
+    margin-left: -4%;
+		}
+    .video {
+    position: absolute;
+    width: 80%;
+    top: 20px;
+    right: 50px !important;
+    }
+		.introvideo{
+			height: 300px;
+		}
+		.mainheading {
+			font-size: 2.9em;
+			margin-right: 6%;
+		}
+		.mainheading1 {
+			font-size: 50px;
+			margin-right: 7%;
+			margin-left: 0;
+		}
+		.mainheading2 {
+    font-size: 60px;
+    width: 90%;
+		}
+		.mainheading3 {
+    font-size: 60px;
+    width: 90%;
+		}
+		.mainheading4 {
+		    font-family: 'Westfalia-Regular';
+		    color: #fdbd13;
+		    font-size: 60px;
+		    text-align: center;
+		    text-transform: uppercase;
+		    margin-bottom: 2%;
+		    margin-top: 2%;
+		    width: 95%;
+		}
+		.section-p {
+    font-size: 30px;
+    margin-left: 0%;
+    margin-right: 4%;
+		}
+		.section1banner {
+    position: relative;
+    width: 92%;
+    margin-left: 0%;
+		}
+		.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 3%;
+		}
+		.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 16px;
+    list-style: none;
+		}
+		.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 92%;
+    margin-left: -8%;
+		}
+		.section2banner-content {
+    position: absolute;
+    top: 26px;
+    width: 100%;
+    right: 20%;
+		}
+		.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    text-align: right;
+    list-style: none;
+		}
+		.section3banner {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    margin: 0px;
+		}
+		.section3banner-content {
+    position: absolute;
+    top: 16px;
+    width: 94%;
+    left: 36px;
+		}
+		.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 28px;
+    width: 90%;
+		}
+		.section4banner {
+    position: relative;
+    width: 90%;
+    height: 540px;
+    margin: 0;
+		}
+		.section4banner-content {
+    position: absolute;
+    top: 140px;
+    width: 94%;
+    left: 25px;
+		}
+		.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+		}
+		.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+		}
+		.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+		margin-left: -10%;
+		}
+}
+@media screen and (max-width:767px) {
+  .mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 15px;
+    right: 48px !important;
+}
+.introvideo {
+    height: 280px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 34px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 34px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 16px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 27px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 130px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+  }
+
+@media screen and (max-width:732px) {
+  .mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 15px;
+    right: 46px !important;
+}
+.introvideo {
+    height: 270px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 32px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 32px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 16px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 26px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 130px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:700px) {
+	header nav ul.open {
+    left: 45px;
+}
+.greybox img{
+	margin-right: 20%;
+}
+.pright{
+	text-align: center;
+}
+.box1{
+	width: 100%;
+}
+.subscribebtn {
+    margin-left: 0%;
+}
+#quote-carousel .carousel-control.right{
+	margin-right:0px !important;
+}
+.carousel-inner {
+    width: 100% !important;
+}
+.programmingvideo{
+	width: 100%;
+}
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 44px !important;
+}
+.introvideo {
+    height: 250px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 31px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 31px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 25px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 21px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:650px) {
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 44px !important;
+}
+.introvideo {
+    height: 230px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 28px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 28px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 24px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:600px) and (min-width:500px){
+		.banner1-content h3{
+		  font-size: 2em;
+
+		}
+		.banner1-content p{
+		  font-size: 16px;
+		  width: 62%;
+		}
+		.banner2-content{
+		  left:7%;
+		}
+		.banner2-content h3{
+		  font-size: 2em;
+
+		}
+		.banner2-content p{
+		  font-size: 16px;
+		  width: 60%;
+		}
+		.pleft {
+		     padding-top: 0%;
+		     padding-left: 0%;
+		    font-size: 2em;
+				text-align: center;
+		}
+		.pright {
+		     padding-top: 0%;
+		     padding-right: 0%;
+		    font-size: 2em;
+				text-align: center;
+		}
+.box1 p {
+    min-height: auto;
+}
+.box1{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.trustedbox h2 {
+  font-size: 3em;
+}
+header nav ul.open {
+    left: 32px;
+}
+.main-banner img {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 38px !important;
+}
+.introvideo {
+    height: 210px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 27px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 27px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 23px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:580px) {
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 38px !important;
+}
+.introvideo {
+    height: 200px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 25px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 23px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:550px) {
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 34px !important;
+}
+.introvideo {
+    height: 185px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 23px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 23px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 22px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+@media screen and (max-width:500px) {
+.mainheading1 {
+    font-size: 50px;
+    margin-right: 0%;
+    margin-left: 0;
+    width: 100%;
+}
+.mainheading {
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0%;
+}
+.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+}
+.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+}
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 16px;
+    right: 34px !important;
+}
+.introvideo {
+    height: 166px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 3%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    right: 3%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 21px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+.section3banner-content {
+    position: absolute;
+    top: 20px;
+    width: 94%;
+    left: 36px;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    margin: 0;
+}
+.section4banner-content {
+    position: absolute;
+    top: 186px;
+    width: 94%;
+    left: 80px;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 17px;
+    width: 90%;
+    margin-left: 0 auto;
+    /* margin: 0 auto !important; */
+    margin-left: -9%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+    margin-left: -10%;
+}
+}
+
+@media screen and (max-width:480px){
+	.main-banner img{
+		margin-top: 10%;
+	}
+	header nav ul.open {
+	    left: 30px;
+	}
+#quote-carousel{
+	//padding: auto !important;
+}
+.trustedbox p{
+	width: 100%;
+	margin-left: 0%;
+	padding-bottom: 2%;
+}
+.item blockquote p::after{
+	padding-top: 2%;
+	display: none;
+}
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+		margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.border {
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 4%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 8px;
+    right: 35px;
+}
+.introvideo {
+    height: 174px;
+		width: 95%;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 19px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 19px;
+    text-align: right;
+    list-style: none;
+}
+.mainheading2 {
+	font-size: 60px;
+	width: 100%;
+}
+.mainheading3 {
+	font-size: 60px;
+	width: 100%;
+}
+.section3banner {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0px;
+}
+.section3banner-content-p {
+	font-family: Please write me a song;
+	font-size: 23px;
+	width: 90%;
+}
+.section4banner {
+	position: relative;
+	width: 100%;
+	height: 820px;
+	margin: 0;
+}
+.section4banner-content {
+	position: absolute;
+	top: 190px;
+	width: 94%;
+	left: 50px;
+}
+.section4banner-content-p {
+	font-family: Please write me a song;
+	font-size: 22px;
+	width: 90%;
+}
+.section4banner-content-li {
+	font-family: Please write me a song;
+	font-size: 22px;
+	width: 90%;
+}
+.section4banner-content-li1 {
+	font-family: Please write me a song;
+	font-size: 22px;
+	width: 90%;
+}
+}
+@media screen and (max-width:450px){
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+		margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.border {
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 4%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 8px;
+    right: 35px;
+}
+.introvideo {
+    height: 158px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    text-align: right;
+    list-style: none;
+}
+.mainheading2 {
+	font-size: 60px;
+	width: 100%;
+}
+.mainheading3 {
+	font-size: 60px;
+	width: 100%;
+}
+.section3banner {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0px;
+}
+.section3banner-content-p {
+	font-family: Please write me a song;
+	font-size: 22px;
+	width: 90%;
+}
+.section4banner {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	margin: 0;
+}
+.section4banner-content {
+	position: absolute;
+	top: 190px;
+	width: 94%;
+	left: 50px;
+}
+.section4banner-content-p {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li1 {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+}
+@media screen and (max-width:414px) and (min-width:375px){
+.trustedbox h2{
+	    font-size: 3em;
+}
+.subscribetextbox {
+    width: 98%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.subscribebtn{
+	margin-left: 2%;
+	margin: 0 auto;
+}
+header nav ul.open {
+		left: 22px;
+}
+.bubble{
+	margin: -12px 0 0 76px;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    right: 31px !important;
+}
+.introvideo {
+	height:140px;
+}
+.border {
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 4%;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 16px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 16px;
+    text-align: right;
+    list-style: none;
+}
+.mainheading2 {
+	font-size: 60px;
+	width: 100%;
+}
+.mainheading3 {
+	font-size: 60px;
+	width: 100%;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.section3banner {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0px;
+}
+.section3banner-content-p {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner {
+	position: relative;
+	width: 100%;
+	height: 970px;
+	margin: 0;
+}
+.section4banner-content {
+	position: absolute;
+	top: 246px;
+	width: 94%;
+	left: 36px;
+}
+.section4banner-content-p {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li1 {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+}
+@media screen and (max-width:390px){
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+		margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.border {
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 4%;
+}
+.video {
+    position: absolute;
+    width: 80%;
+    top: 8px;
+    right: 29px !important;
+}
+.introvideo {
+    height: 134px;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 15px;
+    text-align: right;
+    list-style: none;
+}
+.mainheading2 {
+	font-size: 60px;
+	width: 100%;
+}
+.mainheading3 {
+	font-size: 60px;
+	width: 100%;
+}
+.section3banner {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0px;
+}
+.section3banner-content-p {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner {
+	position: relative;
+	width: 100%;
+	height: 820px;
+	margin: 0;
+}
+.section4banner-content {
+	position: absolute;
+	top: 190px;
+	width: 94%;
+	left: 50px;
+}
+.section4banner-content-p {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+.section4banner-content-li1 {
+	font-family: Please write me a song;
+	font-size: 20px;
+	width: 90%;
+}
+}
+@media screen and (max-width:375px){
+	.video {
+	    position: absolute;
+	    width: 80%;
+	    top: 8px;
+	    right: 28px !important;
+	}
+	.introvideo {
+		height:128px;
+	}
+	.section1banner-content-li {
+	    font-family: Please write me a song;
+	    font-size: 15px;
+	    list-style: none;
+	}
+	.section2banner-content-li {
+	    font-family: Please write me a song;
+	    font-size: 15px;
+	    list-style: none;
+	}
+	.section3banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+	}
+	.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+	}
+	.mainheading2 {
+    font-size: 60px;
+    width: 100%;
+	}
+	.mainheading3 {
+    font-size: 60px;
+    width: 100%;
+	}
+	.mainheading4 {
+	    font-family: 'Westfalia-Regular';
+	    color: #fdbd13;
+	    font-size: 50px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    margin-bottom: 2%;
+	    margin-top: 2%;
+	    width: 95%;
+	}
+	.section4banner {
+    position: relative;
+    width: 100%;
+    height: 970px;
+    margin: 0;
+	}
+	.section4banner-content {
+    position: absolute;
+    top: 246px;
+    width: 94%;
+    left: 36px;
+	}
+	.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+	}
+	.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+	}
+	.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 20px;
+    width: 90%;
+	}
+}
+@media screen and (max-width:360px) and (min-width:320px){
+	.subscribetextbox{
+		width: 98%;
+		margin-left: 2%;
+	}
+	.subscribebtn{
+		margin-left: 2%;
+		margin: 0 auto;
+	}
+	header nav ul.open {
+			left: 22px;
+	}
+	.bubble{
+		margin: -12px 0 0 50px;
+	}
+	#myBtn{
+		padding: 17px;
+	}
+	.trustedbox h2{
+		font-size: 3.2em;
+	}
+	.introvideo {
+		height:120px;
+	}
+	.video {
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    right: 26px;
+	}
+	.border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+		margin-top: 4%;
+	}
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+		margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 14px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 14px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 940px;
+    margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 19px;
+    width: 90%;
+}
+.mainheading4{
+	font-size: 30px;
+}
+.section-p {
+    font-size: 20px;
+}
+.section-heading{
+	font-size: 27px;
+}
+}
+@media screen and (max-width:340px){
+  .introvideo {
+    height:110px;
+  }
+  .video {
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    right: 25px !important;
+  }
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+  }
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+    margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 13px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 13px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+}
+@media screen and (max-width:320px){
+  .introvideo {
+    height:100px;
+  }
+  .video {
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    right: 24px !important;
+  }
+  .border {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+  }
+.mainheading {
+    font-size: 1.9em;
+}
+.mainheading1 {
+    font-size: 32px;
+    margin: 0 auto;
+}
+.mainheading4 {
+    font-family: 'Westfalia-Regular';
+    color: #fdbd13;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+.section1banner {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+}
+.section1banner-content {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 7%;
+}
+.section1banner-content-li {
+    font-family: Please write me a song;
+    font-size: 12px;
+    list-style: none;
+}
+.section2banner {
+    /* margin: 0 auto; */
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.section2banner-content {
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    right: 7%;
+}
+.section2banner-content-li {
+    font-family: Please write me a song;
+    font-size: 12px;
+    text-align: right;
+    list-style: none;
+}
+.section3banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+}
+.section4banner-content-p {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner-content-li {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+.section4banner-content-li1 {
+    font-family: Please write me a song;
+    font-size: 18px;
+    width: 90%;
+}
+}
